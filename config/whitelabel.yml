@@ -1,5 +1,21 @@
 ---
 - !ruby/object:Usergroup
+  label_id: sofia
+  default_locale: en
+  recurring: second wednesday
+  email:
+  twitter:
+  organizers:
+  location:
+    :zoom: 14
+    :lat: 42.6954322
+    :long: 23.3239467
+  imprint:
+    :address: |
+    :contributors: []
+  other_usergroups: []
+  tld: de
+- !ruby/object:Usergroup
   label_id: hamburg
   default_locale: de
   recurring: second wednesday

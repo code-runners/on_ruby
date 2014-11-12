@@ -6,6 +6,12 @@ de:
       title: OnRuby - Die Ruby und Rails Usergroup Plattform
       subtitle: Ruby / Rails Communities Deutschland
       meta_desc: Ruby / Rails Communities Deutschland
+    sofia:
+      city: Sofia
+      name: Sofia
+      title: Sofia on Ruby
+      subtitle: subtitle
+      meta_desc:
     hamburg:
       city: Hamburg
       name: Ruby Usergroup Hamburg
