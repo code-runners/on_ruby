@@ -36,7 +36,7 @@ OnRuby =
   moreList: ->
     for list in $("ul.more-list")
       do (list) ->
-        preview_size = $(list).data('preview-size') || 4
+        preview_size = $(list).data('preview-size') || 3
         elements = $(list).find "li"
         if elements.size() > preview_size
           elements.slice(preview_size).hide()

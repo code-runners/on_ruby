@@ -18,6 +18,7 @@
   - if events.any?
     h3= t("home.past_events")
     ul.more-list.clearfix
+      p= events.inspect
       - events.each do |event|
         li.event
           = link_to_event event, title: "#{l(event.date, format: :date)} - #{event.name}"
