@@ -32,7 +32,7 @@ section.clearfix
             =' link_to ug[:name], ug[:url], title: ug[:name]
             = link_to_twitter(ug[:twitter], clung: true) if ug[:twitter]
 
-  .railsgroups.block.hr
+  .railsgroups.block.hr.float-none
     h2= t("footer.ruby_usergroups")
     ol.clearfix
       - Whitelabel.labels.each do |label|
