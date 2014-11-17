@@ -28,5 +28,5 @@ OnRuby::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.middleware.use "CookieDomain", ".onruby.dev"
+  config.middleware.use "CookieDomain", ".conit-bg.com"
 end
