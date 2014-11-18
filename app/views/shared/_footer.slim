@@ -16,13 +16,6 @@ section.clearfix
         - if Whitelabel[:coc].present?
           li= link_to 'Code of Conduct', Whitelabel[:coc], title: 'Code of Conduct'
 
-    .imprint.block
-      h2= t("footer.imprint")
-      ul
-        li== imprint[:contributors].map { |c| mail_to c[:email], c[:name], title: c[:name] }.join(' ')
-        - if imprint[:address]
-          li== simple_format imprint[:address]
-
   - if other_usergroups.present?
     .usergroups.block.hr
       h2= I18n.tw("footer.other_usergroups")
@@ -35,11 +28,11 @@ section.clearfix
   .railsgroups.block.hr.float-none
     h2= t("footer.ruby_usergroups")
     ol.clearfix
-      - Whitelabel.labels.each do |label|
+      - ruby_usergroups.each do |usergroup|
         li
-          - name = t("label.#{label.label_id}.name")
-          =' link_to name, label_url(label), title: name
-          = link_to_twitter(label.twitter, clung: true)
+          - name = t("label.#{usergroup[:label]}.name")
+          =' link_to name, usergroup[:url], title: name
+          = link_to_twitter(usergroup[:twitter], clung: true)
 
   .railssupporters.block
     h2= t("footer.ruby_supporters")

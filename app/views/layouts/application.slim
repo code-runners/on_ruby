@@ -13,7 +13,6 @@ html
     = render 'shared/script'
   body
     = ribbon(:github)
-    = ribbon(:senor_developer)
     .container
       = render 'shared/nav'
       header#on_ruby.clearfix
@@ -22,7 +21,7 @@ html
         = render 'shared/hint'
         = yield
     footer
-      = render 'shared/footer', imprint: Whitelabel[:imprint], other_usergroups: Whitelabel[:other_usergroups]
+      = render 'shared/footer', imprint: Whitelabel[:imprint], other_usergroups: Whitelabel[:other_usergroups], ruby_usergroups: Whitelabel[:ruby_usergroups]
     = render 'peek/bar'
   = render 'shared/info'
   = javascript_include_tag :application, "//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"

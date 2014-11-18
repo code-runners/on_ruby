@@ -14,4 +14,38 @@
     :address: |
     :contributors: []
   other_usergroups: []
+  ruby_usergroups:
+  - :label: hamburg
+    :url: hamburg.onruby.de
+    :twitter: hamburgsync
+  - :label: bremen
+    :url: bremen.onruby.de
+    :twitter: hackhb
+  - :label: cologne
+    :url: cologne.onruby.de
+    :twitter: colognerb
+  - :label: saar
+    :url: saar.onruby.de
+    :twitter: RUGSaar
+  - :label: karlsruhe
+    :url: karlsruhe.onruby.de
+    :twitter: rug_ka
+  - :label: berlin
+    :url: berlin.onruby.de
+    :twitter: rug_b
+  - :label: leipzig
+    :url: leipzig.onruby.de
+    :twitter: LeipzigOnRails
+  - :label: dresden
+    :url: dresden.onruby.de
+    :twitter: ruby_dresden
+  - :label: railsgirlshh
+    :url: railsgirlshh.onruby.de
+    :twitter: railsgirlshh
+  - :label: bonn
+    :url: bonn.onruby.de
+    :twitter: bonnrb
+  - :label: innsbruck
+    :url: innsbruck.onruby.de
+    :twitter: innsbruckrb
   tld: de
