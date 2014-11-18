@@ -6,6 +6,7 @@ de:
       month: "%B %Y"
   countries:
     DE: "Deutschland"
+    BG: "Bulgaria"
   switch_languages: "Umschalten auf %{language}"
   languages:
     de: "Deutsch"

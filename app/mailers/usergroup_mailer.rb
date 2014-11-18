@@ -3,7 +3,7 @@ class UsergroupMailer < ActionMailer::Base
     @event = event
     options = {
       from: %Q("#{I18n.tw('name')}" <onruby@googlemail.com>),
-      to: "rubyonrails-ug-germany@googlegroups.com",
+      to: "mailto:ruby-on-rails-bulgaria@googlegroups.com",
       subject: "#{Whitelabel[:label_id].upcase} Info: #{event.name}",
     }
     default_url_options[:host] = "#{Whitelabel[:label_id]}.onruby.#{Whitelabel[:tld]}"

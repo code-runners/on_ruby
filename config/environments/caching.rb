@@ -81,7 +81,7 @@ OnRuby::Application.configure do
   config.active_support.deprecation = :notify
 
   # Set the default host for production
-  config.default_host = 'conit-bg.com'
+  config.default_host = 'sofia.ruby.bg'
 
-  config.middleware.use "CookieDomain", ".conit-bg.com"
+  config.middleware.use "CookieDomain", ".ruby.bg"
 end

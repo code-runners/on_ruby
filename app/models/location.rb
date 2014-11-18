@@ -18,7 +18,7 @@ class Location < ActiveRecord::Base
   default_scope   -> { where(label: Whitelabel[:label_id]) }
 
   def full_address
-    "#{address}, #{I18n.t('countries.DE')}"
+    "#{address}, #{I18n.t('countries.BG')}"
   end
 
   def address

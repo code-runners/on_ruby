@@ -22,7 +22,7 @@ module ExternalLinkHelper
   end
 
   def mailing_list_url
-    group = Whitelabel[:google_group] || 'rubyonrails-ug-germany'
+    group = Whitelabel[:google_group] || 'ruby-on-rails-bulgaria'
     "https://groups.google.com/group/#{group}"
   end
 
@@ -41,7 +41,7 @@ module ExternalLinkHelper
 
   def mailing_list_feed_url(count)
     if Rails.env.production? || params[:live]
-      "https://groups.google.com/forum/feed/#{Whitelabel[:google_group] || 'rubyonrails-ug-germany'}/topics/rss.xml?num=#{count}"
+      "https://groups.google.com/forum/feed/#{Whitelabel[:google_group] || 'ruby-on-rails-bulgaria'}/topics/rss.xml?num=#{count}"
     else
       "file:///#{Rails.root.join('spec/support/data/mailinglist_rss_feed.xml')}"
     end
@@ -69,8 +69,7 @@ module ExternalLinkHelper
 
   def ribbon(type)
     types = {
-      github:                 ["Fork me on GitHub!",      "https://github.com/phoet/on_ruby"],
-      senor_developer:        ["Señor Developer!",        "http://senordevelopershop.spreadshirt.de"],
+      github:                 ["Fork me on GitHub!",      "https://github.com/conit-bg/on_ruby"],
     }
     text, url = types[type]
     content_tag :div, id: "#{type}_ribbon", class: 'ribbon_wrap' do

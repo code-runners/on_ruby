@@ -3,8 +3,8 @@
   label_id: sofia
   default_locale: en
   recurring: second wednesday
-  email:
-  twitter:
+  email: sofia@ruby.bg
+  twitter: RubyRailsSofia
   organizers:
   location:
     :zoom: 14
