@@ -40,7 +40,6 @@ gem "zero_push",              "~> 2.4.1"
 gem 'rb-readline'
 
 group :production, :caching do
-  gem "heroku-deflater",  "~> 0.5.3"
   gem "rails_12factor",   "~> 0.0.2"
   gem "dalli",            "~> 2.7.0"
   gem "kgio",             "~> 2.9.2"
